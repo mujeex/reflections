@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    it iterated all the differences in terms on typo's and sentences between the two files
+	in order for me to have a better understanding of the changes made.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+   it provides a very convenient experience for you, because you won't have to go manually 
+searching for files while you have the entire history at your disposal.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like you do in google docs.
+
+
+	pros
+-you get to decide if a change is worth being committed, thereby reducing redundancy in your history
+	cons
+-too many files without reasonable logical differences will be saved in your history without your permission.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+
+git allows this because, there are some files that makes reference to each other, so, saving them simultaneously might be the right move.
+
+How can you use the commands git log and git diff to view the history of files?
+
+you first of all use log to see all the info of the commits, then you make use of the diff to compare the id's of the commits you want to see the difference of.
+
+How might using version control make you more confident to make changes that could break something?
+
+you will be confident in the sense that you know you have the previous history of the version available, therefore, making mistakes is something you can afford.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+i would want to start creating some projects and committing the versions as i progress through, and using the log and diff to make changes on it, when and however i see fit.
+
